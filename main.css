@@ -1,6 +1,6 @@
 @use postcss-cssnext;
 
-/* helpers/grid.css */
+/* Grid for the header */
 
 .grid {
   margin-left: auto;
@@ -9,7 +9,7 @@
   width: 90%;
 }
 
-/* helpers/sticky.css */
+/* This is the thing that defines the navbar to be "sticky" */
 
 .sticky {
   position: sticky;
@@ -20,7 +20,7 @@
   top: 0;
 }
 
-/* layout/base.css */
+/* Layout of the navigation bar */
 
 * {
   box-sizing: inherit;
@@ -38,7 +38,7 @@ body {
   min-height: 100%;
 }
 
-/* layout/header.css */
+/* Headers, as well as how they are positioned */
 
 .header {
   background-color: #fff;
@@ -64,21 +64,21 @@ body {
   opacity: 1;
 }
 
-/* layout/main.css */
+/* Another layout function for the navbar */
 
 .main {
   padding-top: 6em;
   padding-bottom: 6em;
 }
 
-/* modules/headline.css */
+/* The headline, for where the text will be displayed */
 
 h1 {
   margin-bottom: 1.5em;
   margin-top: 0;
 }
 
-/* modules/navigation.css */
+/* The color of the navbar buttons when clicked as well as when they are not selected */
 
 .navigation a {
   color: inherit;
@@ -108,7 +108,7 @@ h1 {
   margin: 0.5em;
 }
 
-/* modules/paragraph.css */
+/* Paragraph headings */
 
 p {
   margin-bottom: 1.5em;
